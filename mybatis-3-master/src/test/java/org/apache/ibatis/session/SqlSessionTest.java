@@ -82,6 +82,7 @@ public class SqlSessionTest extends BaseDataTest {
 
   @Test
   public void shouldFailOverToMostApplicableSimpleName() {
+    // 测试啊
     Configuration c = new Configuration();
     final String fullName = "com.mycache.MyCache";
     final String invalidName = "unknown.namespace.MyCache";
